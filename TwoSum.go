@@ -12,7 +12,7 @@ func is_array(tg int,nums []int)bool{
     return false
 }
 
-//一遍hash表
+//方法一：一遍hash表
 func twoSum(nums []int, target int) []int {
     ret := make([]int,2)
 	len := len(nums)
@@ -29,7 +29,7 @@ func twoSum(nums []int, target int) []int {
     
 }
 
-//暴力破解
+//方法二：暴力破解
 func twoSum2(nums []int, target int) []int {
     tg := make([]int,3)
 	len := len(nums)
